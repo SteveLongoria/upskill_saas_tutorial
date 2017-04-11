@@ -7,8 +7,7 @@
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag "htps://js.stripe.com/v2/", type: 'text/javascript' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
-    <%= tag :meta, :name => "stripe-key", :content => STRIPE_PUBLIC_KEY %>
-    <meta content="publickey" >
+    <%= tag :meta, :name => "stripe-key", :content => 'STRIPE_PUBLIC_KEY' %>
   </head>
 
   <body>
